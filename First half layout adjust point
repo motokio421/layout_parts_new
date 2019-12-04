@@ -1,0 +1,38 @@
+修正点
+
+q1
+10行目元々用意されているclassには、スタイルあてない。
+
+14行目
+
+Q2
+連番はだめ！　(box1 box2)
+
+floatの親にclearfix  
+
+Q3
+タグに直接スタイルを付けたらだめ　css 10行目
+
+.maintable thにスタイル指定。css 14行目　23行目
+
+Q4
+
+4行目class追加　
+
+9行目　box 別名に変更
+
+共通のスタイルは共通のclassにまとめる
+
+command D ショートカット
+
+Q5 
+
+absoluteまとめる。
+
+4行目　既存class
+
+Q6
+
+css29行目 classの名前変更
+
+html 51行　52行　class追加

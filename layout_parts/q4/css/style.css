@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4 {
+.main-box {
   background-color: #eff3f4;
   padding: 20px;
 }
 
-.box {
+.comman-box {
   display: table;
   width: 100%;
   margin-top: 20px;

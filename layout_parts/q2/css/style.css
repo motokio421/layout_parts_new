@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .main-box{
   background-color: #eff3f4;
   width: 900px;

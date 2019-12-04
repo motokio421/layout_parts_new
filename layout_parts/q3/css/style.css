@@ -4,14 +4,15 @@
   width: 100%;
   border: solid #dedede 1px;
   table-layout: fixed;
-}
-
-/* 回答はここに書いてね */
-table {
   border-collapse: collapse;
 }
 
-th {
+/* 回答はここに書いてね */
+/* table {
+  border-collapse: collapse;
+} */
+
+.maintable th {
   color: white;
   background-color: #2244aa;
   padding: 20px;
@@ -20,7 +21,7 @@ th {
   border: solid #dedede 1px;
 }
 
-td {
+.maintable td {
   padding: 20px;
   font-size: 16px;
   line-height: 22px;
