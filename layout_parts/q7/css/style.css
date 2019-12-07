@@ -1,5 +1,106 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* float */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text-float-box {
+  width: 225px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.text-float-box:last-child{
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+/* .white-box {
+  width: 225px;
+  float: left;
+  margin-left: 50px;
+  box-sizing: border-box;
+} */
+
+/* table */
+
+.table-box{
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.table-box:first-child {
+  padding-left: 0px;
+}
+
+/* inline-block */
+ .inline-block{
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.inline-block:first-child{
+  margin-left: 0;
+}
+
+
+.inline{
+  font-size: 0px; 
+}
+
+
+/* flex */
+.main-flex{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.small-flex {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* .q7__box{
+  width: 225px;
+  box-sizing: border-box;
+} */
+
+/* .small-flex{
+  box-sizing: 0;
+} */
+
+/*inline-block margin  */
+.font-size{
+  font-size: 0;
+}
+
+.stable-box{
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.flexble-box{
+  display: inline-block;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+
 
 /* 回答はここに書いてね */

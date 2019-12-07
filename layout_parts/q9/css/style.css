@@ -1,5 +1,50 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.text-box{
+  width: 500px;
+  border: 5px solid #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* .text-box-bottom::before{
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #222;
+
+} */
+
+/*  */
+.text-box::before{
+  position: absolute; /* 三角形の位置指定 */
+  content: ""; /* 三角形のコンテンツ */
+  bottom: -45px;
+  left: 30px; /* 左から配置の基準位置を決める */
+  margin-left: -10px; /* ボーダーの大きさ分左にずらす指定 */
+  height:0px; /* ボックスの横幅をなしに指定する */
+  width:0px; /* ボックスの高さをなしに指定する */
+  border:20px solid; /* 境界線を実線で指定する */
+  border-color:transparent; /* 境界線の色を透過に指定する */
+  border-top: 20px solid #222; /* 境界線の上部を実線で指定する（可視化） */
+}
+
+.text-box::after{
+  position: absolute; /* 三角形の位置指定 */
+  content: ""; /* 三角形のコンテンツ */
+  bottom: -38px;
+  left: 30px; /* 左から配置の基準位置を決める */
+  margin-left: -10px; /* ボーダーの大きさ分左にずらす指定 */
+  height:0px; /* ボックスの横幅をなしに指定する */
+  width:0px; /* ボックスの高さをなしに指定する */
+  border:20px solid transparent; /* 境界線を実線で指定する */
+  /* border-color:transparent; 境界線の色を透過に指定する */
+  border-top: 20px solid #fff; /* 境界線の上部を実線で指定する（可視化） */
+  }
+
 
 /* 回答はここに書いてね */
