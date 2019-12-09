@@ -31,7 +31,8 @@
 .table-box{
   display: table-cell;
   vertical-align: middle;
-  margin-left: 50px;
+  padding-left: 50px;
+  width: 225px;
 }
 
 .table-box:first-child {
