@@ -11,12 +11,13 @@
 .text-float-box {
   width: 225px;
   float: left;
+  margin-left: 50px;
   box-sizing: border-box;
 }
 
-.text-float-box:last-child{
-  margin-left: 50px;
-  box-sizing: border-box;
+.text-float-box:first-child{
+  margin-left: 0px;
+  /* box-sizing: border-box; */
 }
 
 /* .white-box {

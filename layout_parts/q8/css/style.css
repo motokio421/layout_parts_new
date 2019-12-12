@@ -42,7 +42,7 @@
   transform: scale(1.5);
 }
 .img-box:hover .text-box{
-  top: 0%;
+  top: 0;
 }
 
 

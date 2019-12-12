@@ -20,30 +20,29 @@
 } */
 
 /*  */
-.text-box::before{
+.text-box::before,.text-box::after{
   position: absolute; /* 三角形の位置指定 */
   content: ""; /* 三角形のコンテンツ */
-  bottom: -45px;
-  left: 30px; /* 左から配置の基準位置を決める */
-  margin-left: -10px; /* ボーダーの大きさ分左にずらす指定 */
-  height:0px; /* ボックスの横幅をなしに指定する */
-  width:0px; /* ボックスの高さをなしに指定する */
-  border:20px solid; /* 境界線を実線で指定する */
-  border-color:transparent; /* 境界線の色を透過に指定する */
-  border-top: 20px solid #222; /* 境界線の上部を実線で指定する（可視化） */
-}
-
-.text-box::after{
-  position: absolute; /* 三角形の位置指定 */
-  content: ""; /* 三角形のコンテンツ */
-  bottom: -38px;
-  left: 30px; /* 左から配置の基準位置を決める */
-  margin-left: -10px; /* ボーダーの大きさ分左にずらす指定 */
   height:0px; /* ボックスの横幅をなしに指定する */
   width:0px; /* ボックスの高さをなしに指定する */
   border:20px solid transparent; /* 境界線を実線で指定する */
   /* border-color:transparent; 境界線の色を透過に指定する */
+}
+
+.text-box::before{
+  bottom: -45px;
+  left: 30px; /* 左から配置の基準位置を決める */
+  /* margin-left: -10px; ボーダーの大きさ分左にずらす指定 */
+  border-top: 20px solid #222; /* 境界線の上部を実線で指定する（可視化） */
+}
+
+.text-box::after{
+  bottom: -38px;
+  left: 30px; /* 左から配置の基準位置を決める */
+  /* margin-left: -10px; ボーダーの大きさ分左にずらす指定 */
+  /* border-color:transparent; 境界線の色を透過に指定する */
   border-top: 20px solid #fff; /* 境界線の上部を実線で指定する（可視化） */
+  z-index: 1;
   }
 
 
